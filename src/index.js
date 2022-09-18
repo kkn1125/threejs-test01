@@ -4,7 +4,7 @@ import * as THREE from "https://unpkg.com/three@0.127.0/build/three.module.js";
 import { OrbitControls } from "https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js";
 
 import * as dat from "https://cdn.jsdelivr.net/npm/dat.gui@0.7.9/build/dat.gui.module.js";
-import * as gsap from "https://cdn.jsdelivr.net/npm/gsap@3.11.1/index.js";
+import gsap from "https://cdn.jsdelivr.net/npm/gsap@3.11.1/index.js";
 // import * as dat from "../node_modules/dat.gui/build/dat.gui.module.js";
 // import gsap from "../node_modules/gsap/index.js";
 
