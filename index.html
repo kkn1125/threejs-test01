@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>THREE TEST</title>
+  </head>
+  <body>
+    <div id="app">
+      <div
+        class="absolute text-white container-wrapper text-center"
+        style="top: 50%; left: 50%; transform: translate(-50%, -50%)"
+      >
+        <h1 class="font-space-mono text-sm uppercase tracking-wide">Kimson</h1>
+        <p class="uppercase font-exo2 text-2xl font-bold">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+          voluptate deleniti quia.
+        </p>
+        <button
+          class="border px-4 py-2 rounded-lg text-sm mt-12 font-space-mono uppercase hover:bg-white hover:text-gray-800 inline-block"
+          onClick="(() => { if(confirm('페이지를 이동합니다.')) {location.href='https://github.com/kkn1125' } })()"
+        >
+          View Work
+        </button>
+        <button
+          id="change"
+          class="border px-4 py-2 rounded-lg text-sm mt-12 font-space-mono uppercase hover:bg-white hover:text-gray-800 inline-block"
+        >
+          View Change
+        </button>
+        <button
+          id="reset"
+          class="border px-4 py-2 rounded-lg text-sm mt-12 font-space-mono uppercase hover:bg-white hover:text-gray-800 inline-block"
+        >
+          View Reset
+        </button>
+      </div>
+    </div>
+    <script src="src/index.js" type="module" defer></script>
+  </body>
+</html>
